@@ -1,0 +1,101 @@
+<app-navbar></app-navbar>
+<body>
+<div class="container">
+    <h3>Book Your Trip</h3>
+    <p>Ticket Booking</p>
+    <form action="">
+        <div class="row">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option value="1">TamilNadu</option>
+                      <option value="2">Kerala</option>
+                      <option value="3">Karnataka</option>
+                      <option value="4">Andhra</option>
+                      <option value="5">Maharastra</option>
+                      <option value="6">Goa</option>
+                    </select>
+                    <label for="floatingSelect">Departure</label>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option value="1">TamilNadu</option>
+                        <option value="2">Kerala</option>
+                        <option value="3">Karnataka</option>
+                        <option value="4">Andhra</option>
+                        <option value="5">Maharastra</option>
+                        <option value="6">Goa</option>
+                    </select>
+                    <label for="floatingSelect">Arrival</label>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Flying Date</label>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="time" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Flying Time</label>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-floating ">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Infants</label>
+                  <span style="color: white;">below 2yrs</span>
+                </div>
+                  
+            </div>
+            <div class="col">
+                <div class="form-floating ">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Children</label>
+                    <span style="color: white;">below 12yrs</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-floating ">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Adults</label>
+                  <span style="color: white;">above 12yrs</span>
+                </div>
+            </div>
+        </div>  
+            <div class="form-floating mt-3">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option value="1">Economy</option>
+                  <option value="2">Premium Economy</option>
+                  <option value="3">Business</option>
+                  <option value="4">First Class</option>
+                </select>
+                <label for="floatingSelect">Class</label>
+            </div>
+            <div class="col">
+                <div class="form-floating mt-3 mb-3">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option value="1">Student</option>
+                      <option value="2">Regular</option>
+                      <option value="3">Senior Citizen</option>
+                      <option value="4">Armed Forces</option>
+                    </select>
+                    <label for="floatingSelect">Fare type</label>
+                  </div>
+            </div>
+            <div class="button">
+                <button class="btn btn-info" routerLink="/form3"> Next</button>
+            </div>
+            <div class="button1">
+                <button class="btn btn-info" routerLink="/form">Previous</button>
+            </div>
+    </form>
+</div>
+</body>

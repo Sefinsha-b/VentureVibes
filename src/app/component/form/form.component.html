@@ -1,0 +1,107 @@
+<body>  
+<app-navbar></app-navbar>
+<div class="container">
+    <h3>Book Your Trip</h3>
+    <p>About You</p>
+
+    <form >
+    <div class="row">
+        <div class="col">
+            <div class="form-floating mb-3">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option value="1">Mr</option>
+                    <option value="2">Ms</option>
+                    <option value="3">Mrs</option>
+                  </select>
+                <label for="floatingInput">Mr/Mrs</label>
+              </div> 
+        </div>
+    </div>    
+    <div class="row">
+        <div class="col">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
+                <label for="floatingInput">First Name</label>
+              </div> 
+        </div>
+        <div class="col">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Last Name">
+                <label for="floatingInput">Last Name</label>
+              </div> 
+        </div>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="tel" class="form-control" id="floatingInput" placeholder="Contact">
+        <label for="floatingInput">Contact</label>
+    </div> 
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="email">
+        <label for="floatingInput">Email</label>
+    </div> 
+    <div class="form-floating mb-3">
+        <input type="tel" class="form-control" id="floatingInput" placeholder="Aadhar">
+        <label for="floatingInput">Aadhar</label>
+    </div>  
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="City">
+        <label for="floatingInput">City</label>
+    </div>     
+    <div class="button">
+        <button class="btn btn-info" routerLink="/form2">Next...</button>
+    </div>
+
+    </form>
+</div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="0.7" d="M0,128L60,154.7C120,181,240,235,
+        360,234.7C480,235,600,181,720,170.7C840,160,960,192,1080,197.3C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,
+        320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+        <g mask="url(&quot;#SvgjsMask1032&quot;)" fill="none">
+            <rect width="1440" height="560" x="0" y="0" fill="#0e2a47"></rect>
+            <path d="M182.8884800606906 577.1180904920514L285.1973515664734 522.7194985697843 230.79875964420637 420.4106270640015 128.48988813842357 474.80921898626855z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float3"></path>
+            <path d="M1342.983114928891-28.197040928134072L1246.0609921108683 62.184300780159404 1433.3644566371845 68.72508188988864z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+            <path d="M45.173,412.176C69.388,413.15,90.038,395.321,101.067,373.741C111.153,354.005,107.861,330.866,96.431,311.877C85.395,293.542,66.573,280.869,45.173,280.883C23.795,280.897,4.306,293.198,-5.972,311.943C-15.874,330.002,-12.799,351.19,-3.438,369.536C7.062,390.113,22.091,411.247,45.173,412.176" fill="rgba(28, 83, 142, 0.4)" class="triangle-float1"></path>
+            <path d="M965.59 63.44 a108.89 108.89 0 1 0 217.78 0 a108.89 108.89 0 1 0 -217.78 0z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+            <path d="M604.643,546.105C647.751,545.098,683.886,518.103,706.532,481.409C730.6,442.411,744.7,394.611,723.073,354.208C700.444,311.935,652.582,290.1,604.643,291.067C558.362,292,516.997,318.532,494.205,358.822C471.768,398.485,471.013,447.118,494.16,486.371C516.952,525.022,559.784,547.153,604.643,546.105" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+        </g>
+        <defs>
+            <mask id="SvgjsMask1032">
+                <rect width="1440" height="560" fill="#ffffff"></rect>
+            </mask>
+            <style>
+                @keyframes float1 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-10px, 0)}
+                    100%{transform: translate(0, 0)}
+                }
+    
+                .triangle-float1 {
+                    animation: float1 5s infinite;
+                }
+    
+                @keyframes float2 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-5px, -5px)}
+                    100%{transform: translate(0, 0)}
+                }
+    
+                .triangle-float2 {
+                    animation: float2 4s infinite;
+                }
+    
+                @keyframes float3 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(0, -10px)}
+                    100%{transform: translate(0, 0)}
+                }
+    
+                .triangle-float3 {
+                    animation: float3 6s infinite;
+                }
+            </style>
+        </defs>
+    </svg> -->
+</body>
