@@ -11,6 +11,14 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { Form2Component } from './component/form2/form2.component';
 import { Form3Component } from './component/form3/form3.component';
 import { FormComponent } from './component/form/form.component';
+import { TrainBookingComponent } from './component/train-booking/train-booking.component';
+import { BusBookingComponent } from './component/bus-booking/bus-booking.component';
+import { FlightBookingComponent } from './component/flight-booking/flight-booking.component';
+import { DomesticComponent } from './component/domestic/domestic.component';
+import { InternationalComponent } from './component/international/international.component';
+import { HistoricalComponent } from './component/historical/historical.component';
+
+import { HoneymoonComponent } from './component/honeymoon/honeymoon.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +29,15 @@ import { FormComponent } from './component/form/form.component';
     FormComponent,
     NavbarComponent,
     Form2Component,
-    Form3Component
+    Form3Component,
+    TrainBookingComponent,
+    BusBookingComponent,
+    FlightBookingComponent,
+    DomesticComponent,
+    InternationalComponent,
+    HistoricalComponent,
+
+    HoneymoonComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +45,7 @@ import { FormComponent } from './component/form/form.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
